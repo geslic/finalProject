@@ -1,0 +1,10 @@
+spring:
+   datasource:
+      username: dogtopia
+      password: dogtopia
+      url: jdbc:mysql://localhost:3306/dogtopia
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
